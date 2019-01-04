@@ -78,7 +78,6 @@
             this.lblwinCount.Name = "lblwinCount";
             this.lblwinCount.Size = new System.Drawing.Size(100, 23);
             this.lblwinCount.TabIndex = 3;
-
             // 
             // lbllossCount
             // 
@@ -108,7 +107,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-
+            this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.lbllossCount);
             this.Controls.Add(this.lblwinCount);
             this.Controls.Add(this.btnCards);
@@ -116,7 +115,6 @@
             this.Controls.Add(this.lblWins);
             this.Name = "Form1";
             this.Text = "Form1";
-
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

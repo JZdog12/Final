@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace Final
 {
-    
+
     public partial class Form1 : Form
     {
         public static int highScore;
