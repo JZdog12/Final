@@ -128,7 +128,6 @@
     <Content Include="Properties\Resources\queen of diamonds.PNG" />
     <Content Include="Properties\Resources\queen of hearts.PNG" />
     <Content Include="Properties\Resources\queen of spades.PNG" />
-    <None Include="Resources\table.jpg" />
     <None Include="Resources\queen of spades.PNG" />
     <None Include="Resources\queen of hearts.PNG" />
     <None Include="Resources\queen of diamonds.PNG" />

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.lblWins = new System.Windows.Forms.Label();
             this.lbllosses = new System.Windows.Forms.Label();
             this.btnCards = new System.Windows.Forms.Button();
@@ -43,9 +44,10 @@
             // 
             this.lblWins.AutoSize = true;
             this.lblWins.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWins.Location = new System.Drawing.Point(13, 13);
+            this.lblWins.Location = new System.Drawing.Point(17, 16);
+            this.lblWins.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblWins.Name = "lblWins";
-            this.lblWins.Size = new System.Drawing.Size(52, 24);
+            this.lblWins.Size = new System.Drawing.Size(66, 29);
             this.lblWins.TabIndex = 0;
             this.lblWins.Text = "Wins";
             // 
@@ -53,18 +55,20 @@
             // 
             this.lbllosses.AutoSize = true;
             this.lbllosses.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbllosses.Location = new System.Drawing.Point(13, 55);
+            this.lbllosses.Location = new System.Drawing.Point(17, 68);
+            this.lbllosses.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbllosses.Name = "lbllosses";
-            this.lbllosses.Size = new System.Drawing.Size(69, 24);
+            this.lbllosses.Size = new System.Drawing.Size(90, 29);
             this.lbllosses.TabIndex = 1;
             this.lbllosses.Text = "Losses";
             // 
             // btnCards
             // 
             this.btnCards.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCards.Location = new System.Drawing.Point(17, 99);
+            this.btnCards.Location = new System.Drawing.Point(23, 122);
+            this.btnCards.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCards.Name = "btnCards";
-            this.btnCards.Size = new System.Drawing.Size(75, 31);
+            this.btnCards.Size = new System.Drawing.Size(100, 38);
             this.btnCards.TabIndex = 2;
             this.btnCards.Text = "Cards";
             this.btnCards.UseVisualStyleBackColor = true;
@@ -74,17 +78,19 @@
             // 
             this.lblwinCount.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblwinCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblwinCount.Location = new System.Drawing.Point(86, 14);
+            this.lblwinCount.Location = new System.Drawing.Point(115, 17);
+            this.lblwinCount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblwinCount.Name = "lblwinCount";
-            this.lblwinCount.Size = new System.Drawing.Size(100, 23);
+            this.lblwinCount.Size = new System.Drawing.Size(133, 28);
             this.lblwinCount.TabIndex = 3;
             // 
             // lbllossCount
             // 
             this.lbllossCount.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbllossCount.Location = new System.Drawing.Point(86, 56);
+            this.lbllossCount.Location = new System.Drawing.Point(115, 69);
+            this.lbllossCount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbllossCount.Name = "lbllossCount";
-            this.lbllossCount.Size = new System.Drawing.Size(100, 23);
+            this.lbllossCount.Size = new System.Drawing.Size(133, 28);
             this.lbllossCount.TabIndex = 4;
             // 
             // pictureBox1
@@ -105,14 +111,17 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(523, 384);
             this.Controls.Add(this.lbllossCount);
             this.Controls.Add(this.lblwinCount);
             this.Controls.Add(this.btnCards);
             this.Controls.Add(this.lbllosses);
             this.Controls.Add(this.lblWins);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
